@@ -28,3 +28,8 @@ footer{
     gap: 3rem;
     flex-wrap: wrap;
 }
+
+.cartao{
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
