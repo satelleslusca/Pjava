@@ -40,6 +40,8 @@ footer{
     background-color: var(--cor-frente);
     height: 100%;
     text-align: center;
+    transform-style: preserve-3d ;
+    transition: transform 300ms ease-in-out;
 }
 
 .conteudo-cartao h3{
