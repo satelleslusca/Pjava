@@ -71,3 +71,10 @@ footer{
     width: 100%;
     backface-visibility: hidden;
 }
+
+.resposta-cartao{
+    transform: rotateY(180deg);
+    background-color: var(--cor-verso);
+    color: var(--destaque);
+    border: 2px solid var(--destaque);
+}
