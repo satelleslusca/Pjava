@@ -41,8 +41,9 @@ footer{
 
 
 .cartao{
-box-shadow: 5px 5px 23px var(--preto);
-cursor: pointer;
+    background-color: var(--cor-frente);
+    box-shadow: 5px 5px 23px var(--preto);
+    cursor: pointer;
 }
 
 .cartao:hover{
