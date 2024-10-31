@@ -33,14 +33,15 @@ footer{
     border: 3px solid var(--destaque);
 }
 
-#container(
+#container{
     padding: 2rem
     display: grid;
     gap: 4rem
-)
+}
+
 
 .cartao{
-
+box-shadow: 5px 5px 23px var(--preto);
 }
 
 .cartao:hover{
