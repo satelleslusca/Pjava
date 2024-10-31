@@ -42,7 +42,7 @@ footer{
 
 .cartao{
     background-color: var(--cor-frente);
-    box-shadow: 5px 5px 23px var(--preto);
+    box-shadow: 5px 5px 15px var(--preto);
     cursor: pointer;
 }
 
