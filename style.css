@@ -12,6 +12,12 @@ body{
     margin: 0;
 }
 
+header{
+    background-color: var(--cor-verso);
+    padding: 40px;
+    display: flex;
+}
+
 footer{
     position: fixed;
     bottom: 0;
