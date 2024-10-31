@@ -16,6 +16,11 @@ header{
     background-color: var(--cor-verso);
     padding: 40px;
     display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    color: var(--branco);
 }
 
 footer{
