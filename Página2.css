@@ -1,0 +1,34 @@
+:root{
+    --fundo: #FFFFE0;
+    --cor-frente: #F5DEB3;
+    --cor-verso: #edad64;
+    --destaque: #8d4400;
+    --preto: #000000;
+    --branco: #ffffff
+}
+
+body{
+    background-color: var(--fundo);
+    margin: 0;
+}
+
+header{
+    background-color: var(--cor-verso);
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    color: var(--branco);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--cor-verso);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+    border: 3px solid var(--destaque);
+}
